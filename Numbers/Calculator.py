@@ -23,4 +23,4 @@ def calc():
 			calc();
 		else:
 			exit([0])
-calc();
+calc()
