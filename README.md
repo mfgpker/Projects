@@ -14,15 +14,22 @@ See ways of [contributing](https://github.com/thekarangoel/Projects/blob/master/
 
 You can find implementations of these projects in many other languages by other users in [this repo](https://github.com/thekarangoel/Projects-Solutions).
 
-## Donations
 
-If *Projects* has helped you in any way, and you'd like to help the developer, please consider donating.
+## Table of Contents
 
-**- Gittip: [https://www.gittip.com/karan/](https://www.gittip.com/karan/)**
-
-**- Flattr: [https://flattr.com/profile/thekarangoel](https://flattr.com/profile/thekarangoel)**
-
-================================
+- [Numbers](https://github.com/karan/Projects#numbers)
+- [Classic Algorithms](https://github.com/karan/Projects#classic-algorithms)
+- [Graph](https://github.com/karan/Projects#graph)
+- [Data Structures](https://github.com/karan/Projects#data-structures)
+- [Text](https://github.com/karan/Projects#text)
+- [Networking](https://github.com/karan/Projects#networking)
+- [Classes](https://github.com/karan/Projects#classes)
+- [Threading](https://github.com/karan/Projects#threading)
+- [Web](https://github.com/karan/Projects#web)
+- [Files](https://github.com/karan/Projects#files)
+- [Databases](https://github.com/karan/Projects#databases)
+- [Graphics and Multimedia](https://github.com/karan/Projects#graphics-and-multimedia)
+- [Security](https://github.com/karan/Projects#security)
 
 Numbers
 ---------
@@ -94,6 +101,9 @@ Graph
 
 **Dijkstra’s Algorithm** - Create a program that finds the shortest path through a graph using its edges.
 
+**Minimum Spanning Tree** - Create a program which takes a connected, undirected graph with weights and outputs the minimum spanning tree of the graph i.e., a
+subgraph that is a tree, contains all the vertices, and the sum of its weights is the least possible.
+
 
 Data Structures
 ---------
@@ -103,6 +113,8 @@ Data Structures
 
 Text
 ---------
+
+**Fizz Buzz** - Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
 
 **Reverse a String** - Enter a string and the program will reverse it and print it out.
 
@@ -151,6 +163,9 @@ Classes
 **Product Inventory Project** - Create an application which manages an inventory of products. Create a product class which has a price, id, and quantity on hand. Then create an *inventory* class which keeps track of various products and can sum up the inventory value.
 
 **Airline / Hotel Reservation System** - Create a reservation system which books airline seats or hotel rooms. It charges various rates for particular sections of the plane or hotel. Example, first class is going to cost more than coach. Hotel rooms have penthouse suites which cost more. Keep track of when rooms will be available and can be scheduled.
+
+**Company Manager** - Create an hierarchy of classes - abstract class Employee and subclasses HourlyEmployee, SalariedEmployee, Manager and Executive. Every one's pay is calculated differently, research a bit about it.
+After you've established an employee hierarchy, create a Company class that allows you to manage the employees. You should be able to hire, fire and raise employees. 
 
 **Bank Account Manager** - Create a class called Account which will be an abstract class for three other classes called CheckingAccount, SavingsAccount and BusinessAccount. Manage credits and debits from these accounts through an ATM style program.
 
@@ -238,7 +253,7 @@ Graphics and Multimedia
 
 **Stream Video from Online** - Try to create your own online streaming video player.
 
-**Mp3 Player** - A simple program for playing your favorite music files. Add features you though are missing from your favorite music player.
+**Mp3 Player** - A simple program for playing your favorite music files. Add features you think are missing from your favorite music player.
 
 **Watermarking Application** - Have some pictures you want copyright protected? Add your own logo or text lightly across the background so that no one can simply steal your graphics off your site. Make a program that will add this watermark to the picture. *Optional: Use threading to process multiple images simultaneously.*
 
@@ -251,7 +266,6 @@ Security
 -------------
 
 **Caesar cipher** - Implement a Caesar cipher, both encoding and decoding. The key is an integer from 1 to 25. This cipher rotates the letters of the alphabet (A to Z). The encoding replaces each letter with the 1st to 25th next letter in the alphabet (wrapping Z to A). So key 2 encrypts "HI" to "JK", but key 20 encrypts "HI" to "BC". This simple "monoalphabetic substitution cipher" provides almost no security, because an attacker who has the encoded message can either use frequency analysis to guess the key, or just try all 25 keys.
-
 
 Sources
 =======

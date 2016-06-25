@@ -1,5 +1,5 @@
-Graphs
-------
+Graph
+--------
 
 **Graph from links** - Create a program that will create a graph or network from a series of links.
 
@@ -8,3 +8,7 @@ Graphs
 **Connected Graph** - Create a program which takes a graph as an input and outputs whether every node is connected or not.
 
 **Dijkstra’s Algorithm** - Create a program that finds the shortest path through a graph using its edges.
+
+**Minimum Spanning Tree** - Create a program which takes a connected, undirected graph with weights and outputs the minimum spanning tree of the graph i.e., a
+subgraph that is a tree, contains all the vertices, and the sum of its weights is the least possible.
+
