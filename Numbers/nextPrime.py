@@ -41,7 +41,7 @@ while con:
         
         
         input = raw_input("continue? (y/n)")
-        if input == "y":
+        if input != "n":
             con = True
         else:
             con = False
